@@ -15,6 +15,13 @@ const App = () => {
     window.localStorage.setItem('feedback', JSON.stringify(count));
   }, [count]);
 
+  const updateFeedback = feedbackType => {
+        setCount({
+        ...count,
+        [feedbackType]: count[feedbackType] + 1,
+        });
+    }
+
   const totalFeedback = count.good + count.neutral + count.bad;
   const positiveFeedback = totalFeedback === 0 ? 0 : Math.round((count.good / totalFeedback) * 100);
 
@@ -22,7 +29,7 @@ const App = () => {
     <div>
       <Description></Description>
       <Options
-        count={count} setCount={setCount}
+         setCount={setCount} totalFeedback={totalFeedback} updateFeedback={updateFeedback}
       ></Options>
       {totalFeedback === 0 ? (<Notification message = "No feedback yet"></Notification>) :
         (<Feedback
