@@ -1,0 +1,30 @@
+.profile-0{
+    border: 1px solid black;
+    border-radius: 16px;
+}
+.avatar {
+  width: 150px;  
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; 
+  background-color: #f0f0f0;
+}
+.name{
+    font-size: 32px;
+    font-weight: bold;
+}
+.under-name{
+    color: #666666;
+}
+.list-task-1{
+    display: flex;
+    justify-content: center;
+}
+.list-task-1-part{
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px;
+    border: 1px solid #000000;
+    background-color: #f0f0f0;
+    margin:0 auto;
+}

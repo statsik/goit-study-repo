@@ -1,0 +1,17 @@
+.list-task-2{
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    margin: 10px;
+}
+.status {
+  font-weight: bold;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
