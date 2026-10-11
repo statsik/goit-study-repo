@@ -1,0 +1,13 @@
+.gobackbtn{
+    background-color: #1e1e2f;
+    color: #fff;
+    border: 2px solid #6c63ff;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(108, 99, 255, 0.4);
+    text-align: left;
+    margin-bottom: 20px;
+    display: inline-block;
+}

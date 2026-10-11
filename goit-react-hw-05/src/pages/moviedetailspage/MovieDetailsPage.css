@@ -1,0 +1,18 @@
+.movie_details_page-container{
+    display: flex;
+}
+.navlink-det-pag{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: #fb050500;
+}
+.movie-over-group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.genres-list{
+    list-style: none;
+    text-align: center;
+}
