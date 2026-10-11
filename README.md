@@ -1,1 +1,1 @@
-# goit-study-repo
+# My homeworks from goit courses
