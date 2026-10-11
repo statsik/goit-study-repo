@@ -1,0 +1,14 @@
+.gallery{
+    padding: 24px 156px;
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.gallery-image{
+    max-width: 100%;
+    height: auto; 
+    display: block;
+}
